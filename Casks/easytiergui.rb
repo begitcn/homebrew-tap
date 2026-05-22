@@ -3,11 +3,11 @@ cask "easytiergui" do
   arch arm: "apple-silicon", intel: "intel"
 
   on_arm do
-    sha256 "REPLACE_WITH_YOUR_ARM64_DMG_SHA256"
+    sha256 "ad0b9c0accc6786512863b8d03d06dc74b0c088a631bd29332c1e90d36210928"
     url "https://github.com/begitcn/EasyTierGUI/releases/download/v#{version}/EasyTierGUI-#{version}-apple-silicon.dmg"
   end
   on_intel do
-    sha256 "REPLACE_WITH_YOUR_INTEL_DMG_SHA256"
+    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     url "https://github.com/begitcn/EasyTierGUI/releases/download/v#{version}/EasyTierGUI-#{version}-intel.dmg"
   end
 
