@@ -1,9 +1,9 @@
 cask "easytiermanager" do
-  version "1.0.5"
+  version "1.0.6"
   arch arm: "aarch64", intel: "x86_64"
 
   on_arm do
-    sha256 "e8c89e5be62fc12ed1521f159ffde138f118c3bd3e15d3dc41d861df69923947"
+    sha256 "ddae8336ae32b4d320d4147f09924d389eff70738522c5c38f983c6a4eeec04e"
     url "https://github.com/begitcn/EasyTierManager/releases/download/v#{version}/EasyTierManager-#{arch}-v#{version}.dmg"
   end
   on_intel do
