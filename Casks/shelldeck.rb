@@ -1,9 +1,9 @@
 cask "shelldeck" do
-  version "1.0.0"
+  version "1.0.1"
   arch arm: "aarch64", intel: "x86_64"
 
   on_arm do
-    sha256 "128b6e4877be631e45273021f2126495d0a0637de9d37845df69dc44f992ec70"
+    sha256 "098b0dac808d559ea73eca81a5420aeaf0e739803551263adf07db96dab4d80d"
     url "https://github.com/begitcn/ShellDeck/releases/download/v#{version}/ShellDeck-#{arch}-v#{version}.dmg"
   end
   on_intel do
